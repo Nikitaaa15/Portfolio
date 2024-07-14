@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7371fd8362.js" crossorigin="anonymous"></script>
+<body>
+    <div id ="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li><a href="#contact">Contact </a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>PYTHON Developer</p>
+                <h1>Hi,I'm <span>Nikita Patra </span><br>From Berhampur,Odisha</h1>
+            </div>
+        </div>
+    </div>
+   <!---------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src="/portfolio/images/niki background image.png">  
+                 </div>                
+                     <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae quaerat minima eligendi aliquam corrupti! Voluptates dolor possimus laboriosam impedit hic.</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Soft skills')">Soft Skillls</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <Span>OS</Span><br>Designing Web/App interfaces
+                            </li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                            
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <Span>2021-Present</Span><br>B.Tech in Electronics and Telecommunications from BPUT Odisha</li>
+                            <li><span>2019-2021</span><br>Intermediate(CBSE)from TRS Odisha</li>
+                            <li><span>2021</span><br>Matriculation(ICSE) from MAV odisha</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id ="Soft skills">
+                        <ul>
+                            <li><span>Problem-Solving</span><br>Analytical thinking<br>Creativity</li>
+                            <li><span>Learning and Growth</span><br>Curiosity<br>Quick Learner<br>Openness to feedback</li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius corrupti nihil aliquid iure necessitatibus doloribus culpa quis molestiae ullam, rem voluptatibus quas? Autem sint cumque est doloremque illum dolorem dignissimos beatae et eius aut iusto vel nisi aspernatur commodi, quibusdam odit consequuntur pariatur amet dolores. Nisi quod inventore itaque soluta!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>Landing Page</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, nisi praesentium expedita iusto eos temporibus dolorem quae vitae nostrum vero!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>To Do List</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, nisi praesentium expedita iusto eos temporibus dolorem quae vitae nostrum vero!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    <!---Portfolio---->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://img.freepik.com/free-photo/cartoon-model-residential-home-property_23-2151024247.jpg?t=st=1720724815~exp=1720728415~hmac=4eb0c9b4b3954b929364d24de1e79b0410863ed46773b2ac69b310b7c998a4b1?ga=GA1.1.526583465.1720682212" alt="pic">
+                    <div class="layer">
+                        <h3>Designing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, laboriosam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="https://img.freepik.com/free-photo/landscape-scenery-with-magenta-nature_23-2150693849.jpg?t=st=1720724754~exp=1720728354~hmac=d518778155cae917f73331d8c3e30a92d5d53783a97f4aa6ecf94aa3dcf5d9eb?ga=GA1.1.526583465.1720682212" alt="pic">
+                    <div class="layer">
+                        <h3>Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, laboriosam?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+    <!---Contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                        <h1 class="subt-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>nikitapatra1502@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7328867796</p>
+                        <div class="social-icons">
+                            <a href=" https://www.instagram.com/invites/contact/?igsh=14iwsv5dived2&utm_content=gm789g6"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/nikita-patra-2395452bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Nikitaaa15"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="/portfolio/images/resume nikita.pdf" class="btn btn2">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name='submit-to-google-sheet' >
+                            <input type=" text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>Nikita made with <i class="fa-solid fa-heart"></i>by GreatStack. </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby_TNsQ9UMilDgx5EyOa_tZByqmUstYK5uUg1d1J8e4NhN71ndrMSqp8a6yigdGLcDeuQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+            })
+            form.reset()
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>   
+
